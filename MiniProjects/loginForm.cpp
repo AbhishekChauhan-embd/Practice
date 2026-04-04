@@ -160,9 +160,6 @@ class LoginPage{
                  
         }
 
-        void LP_userExit(){
-                cout << "Exit code to be Implemanted\n";
-        }
 };
 
 
@@ -173,7 +170,6 @@ int main()
     cout << "\n1. Login";
     cout << "\n2. SignUp";
     cout << "\n3. Forgot Password";
-    cout << "\n4. Exit";
 
     cout << "\nEnter your Choice :: ";
     cin >> choice;
@@ -192,9 +188,8 @@ int main()
                 LPobj.LP_getPassword();
         break;
         
-        case 4 : 
-                LPobj.LP_userExit();
-        break;
+        default :
+                cout << "Invalid Choice!!\n";
     }
 
     return 0;
