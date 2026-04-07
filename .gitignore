@@ -1,0 +1,17 @@
+# Ignore Practice folder
+Practice/
+
+# Build folders
+build/
+bin/
+out/
+
+# Ignore study document files
+*.pdf
+*VSCODE CMDs.txt
+
+# Ignore executable files
+*.exe
+
+# Ignore IDE specific files
+.vscode/
