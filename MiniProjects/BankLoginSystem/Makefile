@@ -1,5 +1,5 @@
 App : loginForm.o ab_lp_pswdMngr.o
-	g++ loginForm.o ab_lp_pswdMngr.o -o loginForm
+	g++ loginForm.o ab_lp_pswdMngr.o -o BankLoginSystem
 
 loginForm.o : loginForm.cpp
 	g++ -c loginForm.cpp

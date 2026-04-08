@@ -1,7 +1,5 @@
-#include<iostream>
-#include<fstream>
-#include<string>
-#include<ctime>
+#include "ab_lp_main.h"
+#include "ab_lp_pswdMngr.h"
 
 using namespace std;
 
@@ -175,6 +173,7 @@ int main()
     cin >> choice;
     cin.ignore();
 
+    printFromPswdMngr();
     switch(choice){
         case 1 : 
                 LPobj.LP_userLogin();
